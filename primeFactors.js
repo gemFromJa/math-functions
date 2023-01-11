@@ -27,6 +27,7 @@ function primeFactors(n) {
         }
     }
 
+    // euclidian gcd
     function gcd(a, b) {
         if (b === 0) {
             return a;
